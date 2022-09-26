@@ -8,4 +8,12 @@
   width: calc(100% - 12rem);
 
   top: 0;
+
+  .login__btn {
+    background-color: transparent;
+    border: 2px $color-main solid;
+    border-radius: 0.2rem;
+
+    padding: 1rem 2rem;
+  }
 }
