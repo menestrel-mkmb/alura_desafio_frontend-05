@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.header__sect {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  width: calc(100% - 12rem);
+  top: 0;
+}/*# sourceMappingURL=style.css.map */

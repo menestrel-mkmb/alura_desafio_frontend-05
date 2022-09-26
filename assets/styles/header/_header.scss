@@ -1,0 +1,11 @@
+@import "../base";
+
+.header__sect {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 6rem;
+  width: calc(100% - 12rem);
+
+  top: 0;
+}
