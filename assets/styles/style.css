@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 .outline-btn {
   background-color: transparent;
   border: 1px #2a7ae4 solid;
@@ -94,4 +95,61 @@
   border: transparent;
   border-radius: 2rem;
   padding: 0.5rem 2rem;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 1px #2a7ae4 solid;
+  border-radius: 0.2rem;
+  color: #2a7ae4;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.outline-btn:hover {
+  background-color: #2a7ae4;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+.solid-btn {
+  background-color: #2a7ae4;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.solid-btn:hover {
+  background-color: transparent;
+  border: 1px #2a7ae4 solid;
+  color: #2a7ae4;
+  box-sizing: border-box;
+}
+
+.banner__sect {
+  background: url("../imgs/banner-bg.png") center no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.banner__sect .title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 4rem;
+}
+.banner__sect .btn {
+  color: inherit;
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */

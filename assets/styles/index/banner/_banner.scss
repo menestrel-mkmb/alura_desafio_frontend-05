@@ -1,0 +1,23 @@
+@import "../../base";
+.banner__sect {
+  background: url("../imgs/banner-bg.png") center no-repeat;
+  background-size: cover;
+  color: white;
+
+  padding: 2rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+
+    margin-top: 4rem;
+  }
+
+  .btn {
+    color: inherit;
+    width: 40%;
+  }
+}
