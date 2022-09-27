@@ -20,17 +20,36 @@
   </head>
   <body>
     <header class="header__sect sect header">
-      <a class="logo__sect logo__link link" href="#"
-        ><img
-          class="logo__img img"
-          src="./assets/imgs/Logo.svg"
-          alt="AluraGeek"
-          srcset=""
-      /></a>
-      <section class="search__sect"></section>
-      <button class="login__btn btn outline">Login</button>
+      <h1 class="site__title title">
+        <a class="logo__sect logo__link link" href="#"
+          ><img
+            class="logo__img img"
+            src="./assets/imgs/Logo.svg"
+            alt="AluraGeek"
+            srcset=""
+        /></a>
+      </h1>
+      <section class="search__sect">
+        <input
+          class="search__inp"
+          type="search"
+          name="search__menu"
+          id="search__menu"
+          placeholder="O que deseja encontrar?"
+          aria-placeholder="O que deseja encontrar?"
+        />
+      </section>
+      <button class="login__btn btn outline-btn">Login</button>
     </header>
-    <main class="main__sect content sect"></main>
+    <main class="main__sect content sect">
+      <section class="banner__sect banner sect">
+        <h2 class="banner__title title">Dezembro Promocional</h2>
+        <p class="banner__desc desc">
+          Produtos selecionados com 33% de desconto
+        </p>
+        <button class="banner__btn btn solid-btn">Ver consoles</button>
+      </section>
+    </main>
     <footer class="footer__sect sect footer"></footer>
   </body>
 </html>

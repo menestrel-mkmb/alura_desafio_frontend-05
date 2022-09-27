@@ -6,3 +6,45 @@ $font-title-size: 3rem;
 $color-main: #2a7ae4;
 $color-secondary: #eaf2fd;
 $color-tertiary: #f5f5f5;
+
+.outline-btn {
+  background-color: transparent;
+  border: 1px $color-main solid;
+  border-radius: 0.2rem;
+  color: $color-main;
+  font-weight: 600;
+
+  box-sizing: border-box;
+
+  padding: 1rem 2rem;
+  height: fit-content;
+
+  &:hover {
+    background-color: $color-main;
+    border: none;
+    color: white;
+
+    box-sizing: border-box;
+  }
+}
+
+.solid-btn {
+  background-color: $color-main;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+
+  font-weight: 600;
+
+  box-sizing: border-box;
+
+  padding: 1rem 2rem;
+  height: fit-content;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px $color-main solid;
+    color: $color-main;
+    box-sizing: border-box;
+  }
+}

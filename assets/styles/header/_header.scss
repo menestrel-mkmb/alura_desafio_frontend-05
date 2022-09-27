@@ -3,17 +3,25 @@
 .header__sect {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   padding: 1rem 6rem;
   width: calc(100% - 12rem);
 
   top: 0;
 
-  .login__btn {
-    background-color: transparent;
-    border: 2px $color-main solid;
-    border-radius: 0.2rem;
+  .search__sect {
+    background-color: $color-tertiary;
+    border-radius: 2rem;
 
-    padding: 1rem 2rem;
+    margin: 0 2rem;
+
+    .search__inp {
+      background: url("../imgs/search-icon.png") no-repeat 90% 50%;
+      border: transparent;
+      border-radius: 2rem;
+
+      padding: 0.5rem 2rem;
+    }
   }
 }
