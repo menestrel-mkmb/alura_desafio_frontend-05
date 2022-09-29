@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 .outline-btn {
   background-color: transparent;
   border: 1px #2a7ae4 solid;
@@ -32,6 +33,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  max-width: 300px;
 }
 .solid-btn:hover {
   background-color: transparent;
@@ -70,6 +72,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  max-width: 300px;
 }
 .solid-btn:hover {
   background-color: transparent;
@@ -128,6 +131,113 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  max-width: 300px;
+}
+.solid-btn:hover {
+  background-color: transparent;
+  border: 1px #2a7ae4 solid;
+  color: #2a7ae4;
+  box-sizing: border-box;
+}
+
+.footer__sect {
+  margin-top: 2rem;
+}
+.footer__sect .about--footer__div {
+  background-color: #eaf2fd;
+  padding: 2rem 6rem;
+  display: grid;
+  grid-template-columns: 11;
+  grid-template-rows: 7;
+}
+.footer__sect .about--footer__div .logo__sect {
+  grid-column: 2/3;
+  grid-row: 1/6;
+}
+.footer__sect .about--footer__div .links--footer__div {
+  grid-column: 3/5;
+  grid-row: 1/6;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.footer__sect .about--footer__div .links--footer__div .footer__link,
+.footer__sect .about--footer__div .links--footer__div .footer__link:visited {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+.footer__sect .about--footer__div .contact--footer__div {
+  grid-column: 5/9;
+  grid-row: 1/6;
+}
+.footer__sect .about--footer__div .contact--footer__div .contact__title {
+  margin-bottom: 1rem;
+}
+.footer__sect .about--footer__div .contact--footer__div form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer__sect .about--footer__div .contact--footer__div input,
+.footer__sect .about--footer__div .contact--footer__div textarea {
+  color: grey;
+  border: none;
+  border-radius: 0.5rem;
+  max-width: 100%;
+}
+.footer__sect .about--footer__div .contact--footer__div .label--flow__div {
+  position: relative;
+}
+.footer__sect .about--footer__div .contact--footer__div .label--flow__div label {
+  color: grey;
+  position: absolute;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+}
+.footer__sect .about--footer__div .contact--footer__div .label--flow__div input {
+  padding-top: 1rem;
+}
+.footer__sect .copyright--footer__div {
+  text-align: center;
+}
+.footer__sect .copyright--footer__div span {
+  display: block;
+  padding: 0.25rem;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 1px #2a7ae4 solid;
+  border-radius: 0.2rem;
+  color: #2a7ae4;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.outline-btn:hover {
+  background-color: #2a7ae4;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+.solid-btn {
+  background-color: #2a7ae4;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 300px;
 }
 .solid-btn:hover {
   background-color: transparent;
@@ -190,6 +300,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  max-width: 300px;
 }
 .solid-btn:hover {
   background-color: transparent;
