@@ -17,14 +17,14 @@
 }
 .outline-btn:hover {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   color: white;
   box-sizing: border-box;
 }
 
 .solid-btn {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   border-radius: 0.2rem;
   color: white;
   font-weight: 600;
@@ -56,14 +56,14 @@
 }
 .outline-btn:hover {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   color: white;
   box-sizing: border-box;
 }
 
 .solid-btn {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   border-radius: 0.2rem;
   color: white;
   font-weight: 600;
@@ -115,14 +115,14 @@
 }
 .outline-btn:hover {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   color: white;
   box-sizing: border-box;
 }
 
 .solid-btn {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   border-radius: 0.2rem;
   color: white;
   font-weight: 600;
@@ -179,13 +179,14 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 600px;
 }
 .footer__sect .about--footer__div .contact--footer__div input,
 .footer__sect .about--footer__div .contact--footer__div textarea {
   color: grey;
   border: none;
   border-radius: 0.5rem;
-  max-width: 100%;
+  width: 100%;
 }
 .footer__sect .about--footer__div .contact--footer__div .label--flow__div {
   position: relative;
@@ -221,14 +222,14 @@
 }
 .outline-btn:hover {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   color: white;
   box-sizing: border-box;
 }
 
 .solid-btn {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   border-radius: 0.2rem;
   color: white;
   font-weight: 600;
@@ -284,14 +285,14 @@
 }
 .outline-btn:hover {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   color: white;
   box-sizing: border-box;
 }
 
 .solid-btn {
   background-color: #2a7ae4;
-  border: none;
+  border: 1px #2a7ae4 solid;
   border-radius: 0.2rem;
   color: white;
   font-weight: 600;
@@ -311,11 +312,9 @@
 
 .products__sect {
   display: grid;
-  grid-template-columns: 7;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   grid-template-rows: 2;
   gap: 1rem;
-  width: 80%;
-  margin: 0 auto;
 }
 .products__sect .link {
   text-decoration: none;
@@ -323,14 +322,14 @@
 
 .products__title {
   font-size: 2rem;
-  grid-column: 1/2;
+  grid-column: 2/4;
   grid-row: 1/1;
   margin-top: 2rem;
 }
 
 .see-all__link {
   text-align: right;
-  grid-column: 6/7;
+  grid-column: 8/10;
   grid-row: 1/1;
   margin-top: auto;
 }
@@ -339,13 +338,20 @@
   content: url(../../../imgs/arrow_see-all.svg);
 }
 
-.product__div {
+.products-only__sect {
   grid-row: 2/2;
+  grid-column: 2/10;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+.products-only__sect .product__div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  width: 176px;
+  max-width: 176px;
 }
-.product__div .img {
-  height: 174px;
+.products-only__sect .product__div .img {
+  max-height: 174px;
 }/*# sourceMappingURL=style.css.map */
