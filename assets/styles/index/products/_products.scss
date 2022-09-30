@@ -54,4 +54,10 @@
       max-height: 174px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    :nth-child(n + 5) {
+      display: none;
+    }
+  }
 }
