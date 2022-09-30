@@ -3,8 +3,8 @@
 .products__sect {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
-  grid-template-rows: 2;
-  gap: 1rem;
+  grid-template-rows: 0.2fr 2fr;
+  gap: 0.5rem;
 
   .link {
     text-decoration: none;
@@ -23,7 +23,7 @@
 .see-all__link {
   text-align: right;
 
-  grid-column: 8 / 10;
+  grid-column: 8 / 9;
   grid-row: 1 / 1;
 
   margin-top: auto;
@@ -35,13 +35,16 @@
 
 .products-only__sect {
   grid-row: 2 / 2;
-  grid-column: 2 / 10;
+  grid-column: 2 / 9;
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-shrink: 0.5;
   gap: 2rem;
 
-  width: 100%;
+  width: auto;
+  max-width: 100%;
 
   .product__div {
     display: flex;
@@ -51,6 +54,8 @@
     max-width: 176px;
 
     .img {
+      width: auto;
+      height: auto;
       max-height: 174px;
     }
   }
