@@ -3,6 +3,9 @@ function showHome() {
 }
 
 function showLogin() {
-  console.log("teste");
   $(".content").load("login.html");
+}
+
+function showAddProduct() {
+  $(".content").load("addProduct.html");
 }

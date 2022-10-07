@@ -524,4 +524,24 @@
 .login__sect .login__title {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+.add-product__sect {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 8rem 2rem;
+}
+.add-product__sect .title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.add-product__sect .label--flow__div,
+.add-product__sect input,
+.add-product__sect textarea {
+  color: grey;
+  max-width: 60%;
+  min-width: 300px;
 }/*# sourceMappingURL=style.css.map */
