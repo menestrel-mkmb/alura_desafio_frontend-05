@@ -9,3 +9,7 @@ function showLogin() {
 function showAddProduct() {
   $(".content").load("addProduct.html");
 }
+
+function showViewProducts() {
+  $(".content").load("viewProducts.html");
+}

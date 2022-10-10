@@ -56,6 +56,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .outline-btn {
   background-color: transparent;
   border: 1px #2a7ae4 solid;
@@ -108,6 +120,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .header__sect {
   display: flex;
   justify-content: space-between;
@@ -180,6 +204,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .footer__sect {
   margin-top: 2rem;
 }
@@ -328,6 +364,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .banner__sect {
   background: url("../imgs/banner-bg.png") center no-repeat;
   background-size: cover;
@@ -404,6 +452,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .products__sect {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
@@ -411,6 +471,7 @@
   gap: 0.5rem;
 }
 .products__sect .link {
+  color: #2a7ae4;
   text-decoration: none;
 }
 
@@ -512,6 +573,18 @@
   padding-top: 1rem;
 }
 
+.shadowned {
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1028px) {
+  input,
+textarea {
+    width: 90%;
+  }
+}
 .login__sect {
   background-color: #f5f5f5;
   text-align: center;
