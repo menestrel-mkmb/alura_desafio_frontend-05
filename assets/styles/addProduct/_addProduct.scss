@@ -19,5 +19,9 @@
 
     max-width: 60%;
     min-width: 300px;
+    box-sizing: border-box;
+  }
+  textarea {
+    padding: 0.25rem 0.5rem;
   }
 }
