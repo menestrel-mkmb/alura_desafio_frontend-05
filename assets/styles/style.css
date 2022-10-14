@@ -648,4 +648,48 @@ textarea {
 }
 .add-product__sect textarea {
   padding: 0.25rem 0.5rem;
+}
+
+.all-products__sect {
+  background-color: #f5f5f5;
+  padding: 2rem 10%;
+}
+.all-products__sect .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0.5rem;
+}
+.all-products__sect .products__sect {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.all-products__sect .products__sect .product {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.all-products__sect .products__sect .product figure {
+  position: relative;
+}
+.all-products__sect .products__sect .product figure .delete__icon {
+  position: absolute;
+  top: 8px;
+  right: 32px;
+  content: url("../imgs/delete.svg");
+}
+.all-products__sect .products__sect .product figure .edit__icon {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  content: url("../imgs/edit.svg");
+}
+.all-products__sect .products__sect .product .price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.all-products__sect .products__sect .product .link {
+  color: black;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

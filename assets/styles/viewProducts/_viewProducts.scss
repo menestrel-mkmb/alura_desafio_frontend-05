@@ -1,0 +1,53 @@
+.all-products__sect {
+  background-color: $color-tertiary;
+
+  padding: 2rem 10%;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    margin: 1rem 0.5rem;
+  }
+
+  .products__sect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      figure {
+        position: relative;
+
+        .delete__icon {
+          position: absolute;
+          top: 8px;
+          right: 32px;
+          content: url("../imgs/delete.svg");
+        }
+
+        .edit__icon {
+          position: absolute;
+          top: 8px;
+          right: 4px;
+          content: url("../imgs/edit.svg");
+        }
+      }
+
+      .price {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .link {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
